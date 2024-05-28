@@ -61,7 +61,7 @@ public class print_library {
         }   
     }
     public static void print(){
-        System.out.println("\n");
+        System.out.println("");
     }
 
 }
