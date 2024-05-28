@@ -2,7 +2,9 @@ package print;
 
 public class print_library {
     public static void print(int[] x){
-        System.out.print(x + " ");
+        for (int i : x) {
+            System.out.print(i + " ");
+        }
     }
     public static void print(int x){
         System.out.print(x + " ");
@@ -57,6 +59,9 @@ public class print_library {
         for (short s : x) {
             System.out.print(s + " ");
         }   
+    }
+    public static void print(){
+        System.out.println("\n");
     }
 
 }
