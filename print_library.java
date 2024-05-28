@@ -3,9 +3,11 @@ package print_module;
  * ENG:
  * For use this module in your project just write:
  *      import static print_module.print_library.print;
+ *      import static print_module.print_library.println;
  * RU:
  * Для использования данного модуля в своем проекте просто пропишите:
  *      import static print_module.print_library.print;
+ *      import static print_module.print_library.println;
  */
 
 public class print_library {
