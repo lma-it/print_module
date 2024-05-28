@@ -1,4 +1,12 @@
 package print_module;
+/**
+ * ENG:
+ * For use this module in your project just write:
+ *      import static print_module.print_library.print;
+ * RU:
+ * Для использования данного модуля в своем проекте просто пропишите:
+ *      import static print_module.print_library.print;
+ */
 
 public class print_library {
     public static void print(int[] x){
