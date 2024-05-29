@@ -131,7 +131,7 @@ public class print_library {
     public static void print(float[] x){
         float last_item = x[x.length - 1];
         for (float f : x) {
-            if (x != last_item){
+            if (f != last_item){
                 System.out.print(f + " ");
             }else{
                 System.out.print(f);
