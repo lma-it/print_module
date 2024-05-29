@@ -12,8 +12,13 @@ package print_module;
 
 public class print_library {
     public static void print(int[] x){
+        int last_item = x[x.length-1];
         for (int i : x) {
-            System.out.print(i + " ");
+            if (i != last_item){
+                System.out.print(i + " ");
+            }else{
+                System.out.print(i);
+            }
         }
     }
 
@@ -80,8 +85,14 @@ public class print_library {
     }
 
     public static void print(double[] x){
+        double last_item = x[x.length - 1];
         for (double d : x) {
-            System.out.print(d + " ");
+            if(d != last_item){
+                System.out.print(d + " ");
+            }else{
+                System.out.print(d);
+            }
+            
         }   
     }
 
@@ -92,8 +103,14 @@ public class print_library {
     }
 
     public static void print(String[] x){
+        String last_string = x[x.length-1];
         for (String string : x) {
-            System.out.print(string + " ");
+            if(string != last_string){
+                System.out.print(string + " ");
+            }else{
+                System.out.print(string);
+            }
+            
         }   
     }
 
@@ -112,8 +129,14 @@ public class print_library {
     }
 
     public static void print(float[] x){
+        float last_item = x[x.length - 1];
         for (float f : x) {
-            System.out.print(f + " ");
+            if (x != last_item){
+                System.out.print(f + " ");
+            }else{
+                System.out.print(f);
+            }
+            
         }  
     }
 
@@ -124,8 +147,14 @@ public class print_library {
     }
 
     public static void print(char[] x){
+        char last_char = x[x.length - 1];
         for (char c : x) {
-            System.out.print(String.valueOf(c) + " ");
+            if (c != last_char){
+                System.out.print(String.valueOf(c) + " ");
+            }else{
+                System.out.print(String.valueOf(c));
+            }
+            
         }  
     }
 
@@ -136,8 +165,13 @@ public class print_library {
     }
 
     public static void print(long[] x){
+        long last_item = x[x.length - 1];
         for (long l : x) {
-            System.out.print(l + " ");
+            if (l != last_item){
+                System.out.print(l + " ");
+            }else{
+                System.out.print(l);
+            }
         }  
     }
 
@@ -148,8 +182,14 @@ public class print_library {
     }
 
     public static void print(short[] x){
+        short last_item = x[x.length - 1];
         for (short s : x) {
-            System.out.print(s + " ");
+            if (s != last_item){
+                System.out.print(s + " ");
+            }else{
+                System.out.print(s);
+            }
+            
         }   
     }
 
