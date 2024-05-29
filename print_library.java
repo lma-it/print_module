@@ -184,12 +184,8 @@ public class print_library {
     public static void print(short[] x){
         short last_item = x[x.length - 1];
         for (short s : x) {
-            if (s != last_item){
-                System.out.print(s + " ");
-            }else{
-                System.out.print(s + "\n");
-            }
-            
+            if (s != last_item) System.out.print(s + " ");
+            if (s == last_item) System.out.println(s + "\n");
         }   
     }
 
