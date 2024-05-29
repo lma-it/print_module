@@ -17,7 +17,7 @@ public class print_library {
             if (i != last_item){
                 System.out.print(i + " ");
             }else{
-                System.out.print(i);
+                System.out.print(i + "\n");
             }
         }
     }
@@ -90,7 +90,7 @@ public class print_library {
             if(d != last_item){
                 System.out.print(d + " ");
             }else{
-                System.out.print(d);
+                System.out.print(d + "\n");
             }
             
         }   
@@ -108,7 +108,7 @@ public class print_library {
             if(string != last_string){
                 System.out.print(string + " ");
             }else{
-                System.out.print(string);
+                System.out.print(string + "\n");
             }
             
         }   
@@ -134,7 +134,7 @@ public class print_library {
             if (f != last_item){
                 System.out.print(f + " ");
             }else{
-                System.out.print(f);
+                System.out.print(f + "\n");
             }
             
         }  
@@ -152,7 +152,7 @@ public class print_library {
             if (c != last_char){
                 System.out.print(String.valueOf(c) + " ");
             }else{
-                System.out.print(String.valueOf(c));
+                System.out.print(String.valueOf(c) + "\n");
             }
             
         }  
@@ -170,7 +170,7 @@ public class print_library {
             if (l != last_item){
                 System.out.print(l + " ");
             }else{
-                System.out.print(l);
+                System.out.print(l + "\n");
             }
         }  
     }
@@ -187,7 +187,7 @@ public class print_library {
             if (s != last_item){
                 System.out.print(s + " ");
             }else{
-                System.out.print(s);
+                System.out.print(s + "\n");
             }
             
         }   
