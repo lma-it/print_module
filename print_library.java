@@ -190,6 +190,14 @@ public class print_library {
         System.out.println();
     }
 
+    public static void print(my_print_lib operate) {
+        var result = print(operate -> {for (Object obj : objects){
+            operate += obj;
+        }});
+        print(operate);
+        System.out.println();
+    }
+
     public static void println(){
         System.out.println("");
     }
