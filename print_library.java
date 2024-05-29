@@ -186,7 +186,8 @@ public class print_library {
     }
 
     public static void printf(String f_string, Object... args) {
-        System.out.printf(f_string, args + "\n");
+        String formated_string = String.format(f_string, args);
+        System.out.printf(formated_string + "\n");
     }
 
 }
