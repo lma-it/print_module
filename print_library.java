@@ -1,4 +1,7 @@
 package print_module;
+
+import java.util.function.IntConsumer;
+
 /**
  * ENG:
  * For use this module in your project just write:
