@@ -17,6 +17,12 @@ public class print_library {
         }
     }
 
+    public static void println(int[] x){
+        for (int i : x) {
+            System.out.println(i);
+        }
+    }
+
     public static void print(int x){
         System.out.print(x + " ");
     }
