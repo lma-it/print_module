@@ -182,7 +182,7 @@ public class print_library {
     }
 
     public static void printf(String f_string){
-        System.out.printf(f_string);
+        System.out.printf(f_string + "\n");
     }
 
 }
