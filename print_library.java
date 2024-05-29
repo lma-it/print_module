@@ -179,6 +179,17 @@ public class print_library {
         System.out.print("");
     }
 
+    public static void print(Runnable function){
+        function.run();
+    }
+
+    public static void print(IntConsumer action) {
+        for (int i = 0; i < 10; i++) {
+            action.accept(i);
+        }
+        System.out.println();
+    }
+
     public static void println(){
         System.out.println("");
     }
