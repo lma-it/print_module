@@ -185,4 +185,8 @@ public class print_library {
         System.out.printf(f_string + "\n");
     }
 
+    public static void printf(String f_string, int[] args){
+        System.out.printf(f_string + args + "\n");
+    }
+
 }
