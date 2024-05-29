@@ -181,4 +181,8 @@ public class print_library {
         System.out.println("");
     }
 
+    public static void printf(String f_string){
+        System.out.printf(f_string);
+    }
+
 }
