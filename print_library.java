@@ -210,7 +210,7 @@ public class print_library {
     }
 
     public static void printf(Stirng f_string, Runnable function){
-        System.out.println(f_string + function.run());
+        System.out.printf(f_string + function.run() + "\n");
     }
 
 }
