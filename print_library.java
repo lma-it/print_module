@@ -1,7 +1,4 @@
 package print_module;
-
-import java.util.function.IntConsumer;
-
 /**
  * ENG:
  * For use this module in your project just write:
@@ -182,19 +179,20 @@ public class print_library {
         System.out.print("");
     }
 
+    public static void print(Object object){
+        System.out.print(object);
+    }
+
     public static void print(Runnable function){
         function.run();
     }
 
-    public static void print(IntConsumer action) {
-        for (int i = 0; i < 10; i++) {
-            action.accept(i);
-        }
-        System.out.println();
-    }
-
     public static void println(){
         System.out.println("");
+    }
+
+    public static void println(Object object){
+        System.out.println(object);
     }
 
     public static void printf(String f_string){
