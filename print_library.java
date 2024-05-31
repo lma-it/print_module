@@ -206,7 +206,7 @@ public class print_library {
 
     public static void printf(String f_string, Object object) {
         // String formated_string = String.format(f_string, object);
-        System.out.printf(formated_string +  object + "\n");
+        System.out.printf(f_string +  object + "\n");
     }
 
 }
