@@ -52,7 +52,7 @@ public class print_library {
     }
 
     public static void print(char x){
-        System.out.print(x + " ");
+        System.out.println(x);
     }
 
     public static void println(char x){
