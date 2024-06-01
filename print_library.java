@@ -1,4 +1,7 @@
 package print_module;
+
+import java.util.Arrays;
+
 /**
  * ENG:
  * For use this module in your project just write:
@@ -14,17 +17,11 @@ package print_module;
 
 public class print_library {
     public static void print(int[] x){
-        int last_item = x[x.length-1];
-        for (int i : x) {
-            if (i != last_item) System.out.print(i + " ");
-            if (i == last_item) System.out.print(i + "\n");
-        }
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(int[] x){
-        for (int i : x) {
-            System.out.println(i);
-        }
+        System.out.println(Arrays.toString(x));
     }
 
     public static void print(int x){
@@ -84,17 +81,11 @@ public class print_library {
     }
 
     public static void print(double[] x){
-        double last_item = x[x.length - 1];
-        for (double d : x) {
-            if (d != last_item) System.out.print(d + " ");
-            if (d == last_item) System.out.print(d + "\n");
-        }   
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(double[] x){
-        for (double d : x) {
-            System.out.println(d);
-        }   
+        System.out.println(Arrays.toString(x)); 
     }
 
     public static void print(String[] x){
@@ -120,59 +111,35 @@ public class print_library {
     }
 
     public static void print(float[] x){
-        float last_item = x[x.length - 1];
-        for (float f : x) {
-            if (f != last_item) System.out.print(f + " ");
-            if (f == last_item) System.out.print(f + "\n");
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(float[] x){
-        for (float f : x) {
-            System.out.println(f);
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void print(char[] x){
-        char last_char = x[x.length - 1];
-        for (char c : x) {
-            if (c != last_char) System.out.print(String.valueOf(c) + " ");
-            if (c == last_char) System.out.print(String.valueOf(c) + "\n");
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(char[] x){
-        for (char c : x) {
-            System.out.println(String.valueOf(c));
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void print(long[] x){
-        long last_item = x[x.length - 1];
-        for (long l : x) {
-            if (l != last_item) System.out.print(l + " ");
-            if (l == last_item) System.out.print(l + "\n");
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(long[] x){
-        for (long l : x) {
-            System.out.println(l);
-        }  
+        System.out.println(Arrays.toString(x));
     }
 
     public static void print(short[] x){
-        short last_item = x[x.length - 1];
-        for (short s : x) {
-            if (s != last_item) System.out.print(s + " ");
-            if (s == last_item) System.out.print(s + "\n");
-        }   
+        System.out.println(Arrays.toString(x));
     }
 
     public static void println(short[] x){
-        for (short s : x) {
-            System.out.println(s);
-        }   
+        System.out.println(Arrays.toString(x)); 
     }
 
     public static void print(){
@@ -205,7 +172,6 @@ public class print_library {
     }
 
     public static void printf(String f_string, Object object) {
-        // String formated_string = String.format(f_string, object);
         System.out.printf(f_string +  object + "\n");
     }
 
