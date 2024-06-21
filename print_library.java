@@ -209,8 +209,4 @@ public class print_library {
         System.out.printf(f_string +  object + "\n");
     }
 
-    public static void printf(Stirng f_string, Runnable function){
-        System.out.printf(f_string + function.run() + "\n");
-    }
-
 }
