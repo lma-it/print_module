@@ -171,8 +171,8 @@ public class print_library {
         System.out.printf(formated_string + "\n");
     }
 
-    public static void printf(String f_string, Object object) {
-        System.out.printf(f_string +  object + "\n");
-    }
+    // public static void printf(String f_string, Object object) {
+    //     System.out.printf(f_string +  object + "\n");
+    // }
 
 }
